@@ -1,0 +1,333 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.home-color{
+    background:white;
+}
+
+.home-caja{
+   text-align: center;
+    padding: 20px;
+}
+
+.nav-home {
+    text-align: center;  
+}
+
+
+.nav-home .active,
+.nav-home a:hover {
+    color:   #ef6c57;
+    text-decoration: none;
+}
+.nav-home a{
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.nav-home select{
+    background: none;
+    border: none;
+}
+
+
+.home-link i{
+    margin: 0 5px;
+}
+
+
+.fondo1{
+    background: url("../images/hero_bg_1.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Never{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Never h1{
+    font-size: 4rem;
+   
+}
+
+.Never p{
+    margin-top: 20px;
+}
+
+.Never a{
+    color: white;
+    margin-top: 20px;
+    background: #ef6c57;
+   padding: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+.never-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+
+.gallery_item {
+  margin-bottom: 100px;
+  position: relative;
+  overflow: hidden; 
+  text-align: center;
+}
+
+.gallery_item img {
+    max-width: 100%;
+    object-fit: cover;
+    transition: 1s all;     
+}
+
+  .gallery_item:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 1s all; 
+}
+
+.gallery_item:hover img {
+    transition: 1s all;
+    transform: scale(1.2, 1.2); 
+}
+
+.gallery_item:hover::after {
+    background: rgba(0, 0, 0, 0.5);
+    transition: 1s all; 
+}
+
+.gallery_item a{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    left: 0px;
+    color: white;
+    z-index: 2;
+}
+
+.cruises{
+    display: flex;
+    margin-bottom: 100px;
+   
+}
+
+.cruises i{
+    font-size: 3rem;
+    margin-right: 20px;
+    color: #ef6c57
+}
+
+.cruises a{
+    color: #ef6c57;
+}
+
+
+.Testimonials h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Testimonials-caja{
+    display: flex;
+    align-items: center;
+}
+
+.Testimonials-img img{
+    width: 500px;
+}
+
+.Testimo-text-todo{
+    margin-left: -150px;
+}
+
+.Testimo-text{
+    background: #fff;
+    padding: 50px;
+}
+
+.Testimo-text p{
+    margin-top: 20px;
+}
+
+.Testimo-text a{
+    color: #ef6c57;
+}
+
+.our{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.our-dolar a{
+    color: #ef6c57;
+    position: relative;
+    bottom: 70px;
+    z-index: 3;
+}
+
+.our-dolar p{
+    position: relative;
+    bottom: 60px;
+    color: white;
+    z-index: 3;
+}
+
+.fondo2{
+    background: url("../images/hero_bg_2.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.Experience{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Experience i{
+    font-size: 4rem;
+    margin-bottom: 40px;
+    border-radius: 100px;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Blog-caja-todo{
+    display: flex;
+}
+
+.Blog-caja img{
+    width: 530px;
+}
+
+.Blog-caja h5{
+    margin: 20px 0px;
+    color: #ef6c57
+}
+
+.Blog-caja a{
+    color: #ef6c57
+}
+
+.Blog-caja span{
+    margin: 20px 0px;
+    color: #666;
+}
+
+.Blog-caja p{
+    margin: 20px 0px;
+}
+
+.Blog-link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.Blog-link a:hover{
+    background: #ef6c57;
+    text-decoration: none;
+    color:  white;
+}
+.Blog-link a{
+   border: 2px solid #ef6c57;
+   padding: 15px;
+    color: #ef6c57;
+}   
+
+.To{
+    border-top: 1px solid #666
+}
+
+.to-caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0;
+}
+
+.to-caja-a a:hover{
+    background: none;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+}
+.to-caja-a a{
+
+   padding: 15px;
+   padding-left: 40px;
+   padding-right: 40px;
+   color: white;
+   background: #ef6c57;
+}
+
+.footer-color{
+    background: #333333;
+    padding: 40px;
+    color: white;
+}
+
+.to-caja-a2{
+    margin-top: 40px;
+}
+
+.to-caja-a22 a{
+    margin: 0;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.to-caja-a22 input{
+    padding: 5px;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.footer-link a{
+    color: #666;
+}
+
+.Copyright{
+    text-align: center;
+    margin-top: 20px;
+}
